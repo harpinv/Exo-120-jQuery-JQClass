@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#matrice {
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17%;
+
+}
+
+.carre {
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    margin: 25px;
+    background-color: white;
+}
+
+.cercle {
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    border-radius: 100%;
+    margin: 25px;
+    background-color: white;
+}
+
+.losange {
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    margin: 25px;
+    transform-origin: center center;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+#bouton {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: lawngreen;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
